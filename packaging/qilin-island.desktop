@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=麒麟灵动岛
+Name[en]=Kylin Dynamic Island
+Comment=麒麟/飞腾单机版桌面信息岛
+Comment[en]=Offline desktop information island for Kylin / Phytium
+Exec=qilin-island
+Icon=qilin-island
+Terminal=false
+Categories=Utility;
+Keywords=待办;专注;饮水;剪贴板;音乐;日历;灵动岛;todo;focus;
+StartupNotify=false

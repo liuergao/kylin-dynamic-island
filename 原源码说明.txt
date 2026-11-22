@@ -1,0 +1,12 @@
+麒麟灵动岛（内部代号 fuyu）1.2.8 · 从安装包还原的源码
+来源：同步/01-构建产物/麒麟灵动岛_1.2.8_all.deb（2026-11-12 20:12 构建）
+还原时间：2026-11-17
+
+目录结构：
+  fuyu/     主代码（island.py / pages.py / store.py / sponsor.py / sysinfo.py / theme.py / brand.py）
+  assets/   图标与下拉小三角等素材
+
+说明：
+- deb 里只有运行所需文件，不含 docs（版本日志/更新说明）、packaging（build_deb.sh）、tests、tools
+- 运行：PYTHONPATH=本目录 /usr/bin/python3 -m fuyu
+- 版本号以 fuyu/theme.py 里的 VERSION 为准
